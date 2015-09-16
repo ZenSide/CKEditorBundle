@@ -1,7 +1,9 @@
 ZenSide CKEditor Bundle
 =======================
 
-Replace Textarea of your project with CKEditor components. File upload is already included
+Replace textarea with CKeditor.
+
+Come configured with working Image Upload & Media Embed support
 
 1.Add Bundle to AppKernel
 --------------
