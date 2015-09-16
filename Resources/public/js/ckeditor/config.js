@@ -22,7 +22,7 @@ CKEDITOR.editorConfig = function (config) {
     ];
 
     config.removeButtons = 'Save,NewPage,Preview,Print,Templates,Find,Replace,SelectAll,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,CreateDiv,BidiLtr,BidiRtl,Language,Blockquote,Anchor,Smiley,PageBreak,Iframe,Font,About,Styles,Flash';
-    config.extraPlugins = 'popup,filebrowser';
+    config.extraPlugins = 'widget,dialog,popup,filebrowser,oembed';
     //config.filebrowserBrowseUrl = '/browser/browse.php';
     config.filebrowserUploadUrl = window.FILE_UPLOAD_URL;
 };
