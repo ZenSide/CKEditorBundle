@@ -1,0 +1,2 @@
+parameters:
+    ckeditor.upload_dir: "/uploads/cke/" # relative to /web

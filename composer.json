@@ -1,0 +1,25 @@
+{
+  "name": "zenside/ckeditor-bundle",
+  "type": "symfony-bundle",
+  "description": "Bundle which integrate ckeditor with file upload for textarea replacement",
+  "keywords": [],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "ZenSide - Nicolas Janel",
+      "email": "janel.nicolas@zenside.fr",
+      "homepage": "http://www.zenside.fr"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/symfony": "~2.6",
+    "symfony/assetic-bundle": "2.3.*",
+    "twig/extensions": "1.0.*"
+  },
+  "autoload": {
+    "psr-0": { "ZenSide\\CKEditorBundle":"" }
+  },
+  "minimum-stability": "dev",
+  "target-dir": "ZenSide/CKEditorBundle"
+}

@@ -1,0 +1,11 @@
+<script>window.FILE_UPLOAD_URL = '{{ path('file_upload_ckeditor') }}'</script>
+<script src="{{ asset('bundles/zensideckeditor/js/ckeditor/ckeditor.js') }}"></script>
+<script src="{{ asset('bundles/zensideckeditor/js/ckeditor/adapters/jquery.js') }}"></script>
+<script>
+    $(function () {
+        {% if selector is not defined %}
+        {% set selector = "textarea" %}
+        {% endif %}
+        $("{{ selector }}").ckeditor();
+    })
+</script>
