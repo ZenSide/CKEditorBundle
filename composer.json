@@ -1,7 +1,7 @@
 {
   "name": "zenside/ckeditor-bundle",
   "type": "symfony-bundle",
-  "description": "Bundle which integrate ckeditor with file upload for textarea replacement",
+  "description": "Replace textarea with CKeditor. Come configured with working Image Upload & Media Embed support.",
   "keywords": [],
   "license": "GPL-3.0+",
   "authors": [
