@@ -20,17 +20,21 @@ Replace Textarea of your project with CKEditor components. File upload is alread
 
 3.Add initialisation to your layout
 --------------
-    {% block javascripts %}
-        ...
-        {% include 'ZenSideCKEditorBundle::ckeditor_init.html.twig' %}
-    {% endblock %}
+<code>
+{% block javascripts %}
+    ...
+    {% include 'ZenSideCKEditorBundle::ckeditor_init.html.twig' %}
+{% endblock %}
+</code>
     
-By default all <textarea> will be replaced. To filter it you can pass a css selector to the include call :
+By default all <code>textarea</code> will be replaced. To filter it you can pass a css selector to the include call :
 
-    {% block javascripts %}
-        ...
-        {% include 'ZenSideCKEditorBundle::ckeditor_init.html.twig' with {'selector':'textarea.ckeditor' %}
-    {% endblock %}
+<code>
+{% block javascripts %}
+    ...
+    {% include 'ZenSideCKEditorBundle::ckeditor_init.html.twig' with {'selector':'textarea.ckeditor' %}
+{% endblock %}
+</code>
     
 4.File Upload configuration (optional)
 --------------
