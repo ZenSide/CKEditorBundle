@@ -20,6 +20,6 @@
   "autoload": {
     "psr-0": { "ZenSide\\CKEditorBundle":"" }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "target-dir": "ZenSide/CKEditorBundle"
 }
