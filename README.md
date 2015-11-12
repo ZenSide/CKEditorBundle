@@ -27,7 +27,7 @@ Come configured with working Image Upload & Media Embed support
     
 By default all <code>textarea</code> will be replaced. To filter it you can pass a css selector to the include call :
 
-<code>{% include 'ZenSideCKEditorBundle::ckeditor_init.html.twig' with {'selector':'textarea.ckeditor' %}</code>
+<code>{% include 'ZenSideCKEditorBundle::ckeditor_init.html.twig' with {'selector':'textarea.ckeditor'} %}</code>
     
 4.File Upload configuration (optional)
 --------------
