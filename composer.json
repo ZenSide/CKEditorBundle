@@ -1,6 +1,5 @@
 {
   "name": "zenside/ckeditor-bundle",
-  "version": "0.2",
   "type": "symfony-bundle",
   "description": "Replace textarea with CKeditor. Come configured with working Image Upload & Media Embed support.",
   "keywords": [],
@@ -21,5 +20,10 @@
   "autoload": {
     "psr-0": { "ZenSide\\CKEditorBundle":"" }
   },
-  "target-dir": "ZenSide/CKEditorBundle"
+  "target-dir": "ZenSide/CKEditorBundle",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.x-dev"
+    }
+  }
 }
