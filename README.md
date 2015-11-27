@@ -25,9 +25,17 @@ Come configured with working Image Upload & Media Embed support
 
 <code>{% include 'ZenSideCKEditorBundle::ckeditor_init.html.twig' %}</code>
     
+4.Change selector used (optional)
+--------------
 By default all <code>textarea</code> will be replaced. To filter it you can pass a css selector to the include call :
 
 <code>{% include 'ZenSideCKEditorBundle::ckeditor_init.html.twig' with {'selector':'textarea.ckeditor'} %}</code>
+
+5. Change Stylesheet applied inside editor
+--------------
+You can overwrite the default styles of the ckeditor by giving your own stylesheet asset path to the init file
+
+<code>{% include 'ZenSideCKEditorBundle::ckeditor_init.html.twig' with {'contentsCss':'bundles/mybundlename/css/myStyleFile.css'} %}</code>
     
 4.File Upload configuration (optional)
 --------------

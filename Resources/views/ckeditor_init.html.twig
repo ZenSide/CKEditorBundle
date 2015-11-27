@@ -8,4 +8,8 @@
         {% endif %}
         $("{{ selector }}").ckeditor();
     })
+
+    {% if contentsCss is defined %}
+    CKEDITOR.config.contentsCss = '{{ asset(contentsCss) }}' ;
+    {% endif %}
 </script>
