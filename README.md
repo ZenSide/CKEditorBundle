@@ -31,7 +31,7 @@ By default all <code>textarea</code> will be replaced. To filter it you can pass
 
 <code>{% include 'ZenSideCKEditorBundle::ckeditor_init.html.twig' with {'selector':'textarea.ckeditor'} %}</code>
 
-5. Change Stylesheet applied inside editor
+5. Change Stylesheet applied inside editor (optional)
 --------------
 You can overwrite the default styles of the ckeditor by giving your own stylesheet asset path to the init file
 
